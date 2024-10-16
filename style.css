@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #008E6D;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo img{
+    width: 240px;
+    height: 140px;
+}
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 22px;
+    margin-right: 15px;
+    border: 1px solid whitesmoke;
+    padding: 10px;
+}
+#pizzacontainer{
+    padding: 50px;
+}
+#pizzacontainer div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}

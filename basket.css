@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    width: 80%;
+    margin: 20px;
+}
+td,th{
+    padding: 10px;
+}
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.custom-btn-cont{
+    padding-right: 250px;
+}
+.custom-btn-cont button{
+    padding: 10px 30px;
+    font-size: 18px;
+}
+#back-btn{
+    margin: 20px;
+    background-color: #008E6D;
+    border: 1px solid #008E6D;
+    border-radius: 7px;
+    padding: 8px 10px;
+    color: whitesmoke;
+    font-size: 17px;
+    cursor: pointer;
+}
