@@ -22,7 +22,7 @@ function showData(data) {
 
     return(
     `<div class="card" style="width: 18rem;">
-    <img src=${pizza.img} class="card-img-top">
+    <img src=${pizza.img} class="card-img-top" style={{height: '40px'}}>
     <div class="card-body">
     <h5 class="card-title">${pizza.name}</h5>
     <p class="card-text">${pizza.desc}</p>

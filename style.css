@@ -20,7 +20,7 @@ nav a{
     color: whitesmoke;
     text-decoration: none;
     font-size: 22px;
-    margin-right: 15px;
+    /* margin-right: 15px; */
     border: 1px solid whitesmoke;
     padding: 10px;
 }
@@ -31,4 +31,30 @@ nav a{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    justify-content: center;
+}
+.navlinks{
+    display: flex;
+    gap: 6px;
+}
+@media only screen and (max-width: 504px){
+    nav{
+        padding: 0 20px;
+    }
+}
+@media only screen and (max-width: 421px){
+    nav{
+        padding: 0 10px;
+    }
+}
+@media only screen and (max-width: 386px){
+    nav a{
+        padding: 5px;
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 324px){
+    .navlinks{
+        flex-direction: column;
+    }
 }
