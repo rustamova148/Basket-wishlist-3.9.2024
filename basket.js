@@ -23,7 +23,7 @@ function show(){
         row.classList.add('product');
         row.innerHTML = `   
             <th>
-            <img src=${pizza.img}>
+            <img src=${pizza.img} style='width: 300px; height: 200px'>
             </th>
             <td>${pizza.name}</td>
             <td>${pizza.price.md} ₼</td>
